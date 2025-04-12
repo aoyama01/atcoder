@@ -1,0 +1,57 @@
+# === OS依存ファイル ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === エディタ/IDE ===
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.iml
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+pip-wheel-metadata/
+
+# === C++ / GCC / CLang ===
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dSYM/
+*.gcno
+*.gcda
+
+# === Make / CMake / Ninja ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+compile_commands.json
+
+# === ログ・一時ファイル ===
+*.log
+*.tmp
+*.bak
+*~
+
+# === その他 ===
+tags
+*.swp
+*.swo
+*.orig
+*.rej
