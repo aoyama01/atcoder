@@ -16,6 +16,10 @@
 #                 return False
 #     return True
 
+# 参考
+# https://qiita.com/drken/items/a207e5ae3ea2cf17f4bd
+# https://qiita.com/maebaru/items/c30a9abbb5989340763e
+
 sequence_length = int(input())
 sequence = list(map(int, input().split()))
 
